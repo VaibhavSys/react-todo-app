@@ -28,6 +28,7 @@ function ExportButton({ tasks }) {
       </button>
       <a
         ref={linkRef}
+        rel="nofollow"
         href={linkHref}
         download="tasks.json"
         className="hidden"
