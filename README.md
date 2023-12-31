@@ -26,15 +26,13 @@ To run the app locally, follow these steps:
 1. Open your browser and visit [http://localhost:5173](http://localhost:5173)
 
 ## JSON File Format
+
 To import tasks into the web app, the file must be formatted in JSON format and contain an array of strings.
 
 For example:
+
 ```json
-[
-    "Task 1",
-    "Task 2",
-    "Task 3"
-]
+["Task 1", "Task 2", "Task 3"]
 ```
 
 ## License
